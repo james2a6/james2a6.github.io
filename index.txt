@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ann Mary James - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-content">
+            <img src="images/profile.jpg" alt="Profile Picture" class="profile-pic">
+            <h1>Ann Mary James</h1>
+            <h3>Research Assistant at the University of Cincinnati</h3>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am an applied economist specializing in macroeconomics, econometrics, and data analytics. My work explores the complexities of economic systems through advanced statistical modeling, data-driven research, and theoretical analysis. I focus on key areas such as forecasting, labor markets, monetary policy, energy economics, and real estate trends.
+        </p>
+        <p>
+            By leveraging tools like R, SQL, Stata, and MS Excel, I transform data into actionable insights that bridge academic research and practical solutions. My research is driven by a commitment to addressing real-world challenges and contributing to informed policy-making and strategic decision-making. For more information about my work and experience, please refer to my CV.
+        </p>
+    </section>
+
+    <!-- Academia Section -->
+    <section id="academia">
+        <h2>Academia</h2>
+        <div class="academia-grid">
+            <div class="academia-card">
+                <img src="images/cincinnati-logo.png" alt="University of Cincinnati Logo" class="college-logo">
+                <p><strong>University of Cincinnati</strong><br>MS Applied Economics<br>(2023 - 2024)</p>
+            </div>
+            <div class="academia-card">
+                <img src="images/christ-logo.png" alt="Christ University Logo" class="college-logo">
+                <p><strong>Christ (Deemed to be University)</strong><br>MA Applied Economics<br>(2022 - 2023)</p>
+            </div>
+            <div class="academia-card">
+                <img src="images/delhi-logo.png" alt="University of Delhi Logo" class="college-logo">
+                <p><strong>University of Delhi</strong><br>BA Economic and Entrepreneurship<br>(2019 - 2022)</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interests Section -->
+    <section id="interests">
+        <h2>Interests</h2>
+        <ul class="interests-list">
+            <li>Economic Theory</li>
+            <li>Econometrics</li>
+            <li>Statistical Analysis</li>
+            <li>Quantitative Analysis</li>
+            <li>Market Research</li>
+            <li>Mathematical Economics</li>
+            <li>Macroeconomics</li>
+            <li>Game Theory</li>
+            <li>Time Series Analysis</li>
+            <li>Panel Data Analysis</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>
+                <h3><a href="https://github.com/james2a6/corr">Corruption's Shadow: The Uneven Impact on Global Economic Growth</a></h3>
+                <p>
+                    This study unpacks the messy relationship between corruption and economic growth, revealing how its impact twists differently across developed, developing, and least-developed nations. Drawing on a decade of data from 33 countries, it delves into the nuances of how corruption influences GDP, offering insights into the economic consequences of governance and institutional quality. 
+                    <a href="pdfs/project1.pdf" target="_blank">[PDF]</a> 
+                    <a href="https://github.com/james2a6/corr" target="_blank">[Codes]</a>
+                </p>
+            </li>
+            <li>
+                <h3><a href="https://github.com/james2a6/educational_outcome">Impact of Digital Infrastructure Access on American States' Educational Outcomes</a></h3>
+                <p>
+                    This study examines the transformative power of digital infrastructure on high school graduation rates across U.S. states from 2013 to 2022. By leveraging panel data and exploring the effects of internet connectivity, student-teacher ratios, and household income, it delves into the critical role of digital tools in shaping educational outcomes. Offering insights into the intersection of technology and learning, this research highlights the evolving dynamics of equitable education in a digital age. 
+                    <a href="pdfs/project2.pdf" target="_blank">[PDF]</a> 
+                    <a href="https://github.com/james2a6/educational_outcome" target="_blank">[Codes]</a>
+                </p>
+            </li>
+            <li>
+                <h3><a href="https://github.com/james2a6/Forecasting">Understanding Consumer Sentiment: Insights on Labor Markets, Inflation, and Forecasting</a></h3>
+                <p>
+                    This research explores the intricate relationship between consumer sentiment, unemployment rates, and inflation using time-series data spanning three decades. Through advanced VAR/VECM econometric techniques and forecasting analysis, the study examines how labor market dynamics and inflationary pressures shape consumer confidence. The findings offer critical perspectives for policymakers and economists, emphasizing the role of consumer sentiment in economic forecasting and decision-making.
+                    <a href="pdfs/project3.pdf" target="_blank">[PDF]</a> 
+                    <a href="https://github.com/james2a6/Forecasting" target="_blank">[Codes]</a>
+                </p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="contact-icons">
+            <a href="mailto:james2a6@mail.uc.edu" target="_blank">
+                <img src="images/email.png" alt="Email" class="contact-icon">
+            </a>
+            <a href="https://linkedin.com/in/ann16" target="_blank">
+                <img src="images/linkedin.png" alt="LinkedIn" class="contact-icon">
+            </a>
+            <a href="https://github.com/james2a6" target="_blank">
+                <img src="images/github.png" alt="GitHub" class="contact-icon">
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Ann Mary James. All rights reserved.</p>
+    </footer>
+</body>
+</html>
